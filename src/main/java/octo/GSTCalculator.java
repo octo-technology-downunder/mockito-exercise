@@ -1,6 +1,6 @@
 package octo;
 
-import external.calculator.GstTracker;
+import external.tracking.GstTracker;
 
 public class GSTCalculator {
 
