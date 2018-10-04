@@ -10,9 +10,9 @@ Goal of this exercise is to learn concepts of Mock/Stub.
 This concept is also referred as TestDouble.
 Widely used TestDoubles are:
 
-    1.	Mock
-    2.	Spy
-    3.	Stub
+1.	Mock
+2.	Spy
+3.	Stub
 
 ## Mock
 They are nothing but dummy class instead of the real one. They pre-programmed with expectations which form a specification of the calls they are expected to receive. 
