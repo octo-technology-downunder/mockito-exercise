@@ -15,9 +15,10 @@ Widely used TestDoubles are:
 3.	Stub
 
 ## Mock
-They are nothing but dummy class instead of the real one. They pre-programmed with expectations which form a specification of the calls they are expected to receive. 
-They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting. 
-We can configure/override the behaviour of any method.
+- They are nothing but dummy class instead of the real one. 
+- They pre-programmed with expectations which form a specification of the calls they are expected to receive. 
+- They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting. 
+- We can configure/override the behaviour of any method.
 
 Example: If you want to inject CustomerDao as a mock to your CustomerServiceTest, because you don't want to call actual save call on DAO:
 
@@ -57,7 +58,7 @@ public void whenStubASpy_thenStubbed() {
 
 ## Spy
 
-They are kind of mix of real objects and stub. By default, all the methods called on stub are going to be called on real objects. But Some of the behaviour of a spy could be mocked if needed.
+- They are kind of mix of real objects and stub. By default, all the methods called on stub are going to be called on real objects. But Some of the behaviour of a spy could be mocked if needed.
 - You can verify or track interactions with that spy.
 
 ```
