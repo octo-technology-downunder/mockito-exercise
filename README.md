@@ -74,7 +74,7 @@ Notice the structure of the project. Imagine that all the components that you ha
 You have following tasks to accomplish:
 1. Finish the implementation of `WareHouse`
 2. Write one or more test cases for the `WareHouse` with following requirements: 
-- Use Mock or Stub or Spy to inject dependencies.
+- Use Mock or Stub or Spy to inject dependencies as per needed.
 - Create a list of 5 products in your test and use it to test `processProducts` method.
 - Test if `GSTCalculator` is called 5 times.
 - Test if `productRepository` is called with right method parameters
