@@ -9,6 +9,7 @@ Goal of this exercise is to learn concepts of Mock/Stub.
 
 This concept is also referred as TestDouble.
 Widely used TestDoubles are:
+
     1.	Mock
     2.	Spy
     3.	Stub
