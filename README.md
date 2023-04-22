@@ -103,3 +103,4 @@ You have following tasks to accomplish:
 - Test if `GSTCalculator` is called 5 times.
 - Test if `productRepository` is called with right method parameters
 - Test if `EmailService` is called with right parameters
+- Obtain caluclated prices with GST from the repository and verify the results for all 5 products.
